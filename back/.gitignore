@@ -1,0 +1,33 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Go build artifacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Tests, coverage and profiling
+coverage.out
+coverage/
+*.coverprofile
+*.prof
+test-results/
+
+# Local runtime files
+*.log
+/tmp/
+/temp/
+/.cache/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
